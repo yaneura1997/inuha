@@ -11,7 +11,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  background: #66666689 !important;
+  background: #666666;
   color: #ffe600;
 }
 
@@ -82,7 +82,7 @@ body {
   flex-direction: column;
   gap: 16px;
   padding: 24px;
-  background: #ffe70f;
+  background: #ffe600;
   z-index: 100;
 }
 
@@ -125,8 +125,8 @@ body {
 
 .hero-menu a {
   padding: 12px 26px;
-  border: 1px solid #ffe70f;
-  color: #ffe70f;
+  border: 1px solid #ffe600;
+  color: #ffe600;
   text-decoration: none;
   transition: .3s;
 }
@@ -513,7 +513,7 @@ body {
 
   padding: 18px;
 
-  background: #ffe70f;
+  background: #ffe600;
   color: #000;
 
   border: 1px solid #ddd;
@@ -541,7 +541,7 @@ body {
   top: 100%;
 
   border: 8px solid transparent;
-  border-top-color: #ffe70f;
+  border-top-color: #ffe600;
 }
 
 .lyrics-popup::-webkit-scrollbar {
@@ -564,7 +564,7 @@ body {
 .sns-zone {
   padding: 60px 20px;
   background: #000;
-  color: #ffe70f;
+  color: #ffe600;
 }
 
 .sns-title {
@@ -587,16 +587,16 @@ body {
   width: 60px;
   height: 60px;
 
-  color: #ffe70f;
+  color: #ffe600;
   text-decoration: none;
 
-  border: 1px solid #ffe70f;
+  border: 1px solid #ffe600;
 
   transition: .3s;
 }
 
 .sns-icons a:hover {
-  background: #ffe70f;
+  background: #ffe600;
   color: #000;
 }
 
