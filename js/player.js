@@ -126,22 +126,6 @@ document.querySelectorAll(".track").forEach(track => {
 });
 
 
-/* ---------- Outside Click ---------- */
-
-document.addEventListener("click", e => {
-
-  if (!e.target.closest(".lyrics-popup") &&
-      !e.target.closest(".lyrics-toggle")) {
-
-    document.querySelectorAll(".lyrics-popup.is-open").forEach(popup => {
-      popup.classList.remove("is-open");
-    });
-
-  }
-
-});
-
-
 /* ---------- Time Format ---------- */
 
 function format(sec) {
