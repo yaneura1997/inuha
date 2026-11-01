@@ -391,6 +391,7 @@ body {
 }
 
 .track {
+  position: relative;
   padding: 24px 0;
   border-bottom: 1px solid #ddd;
 }
@@ -409,17 +410,9 @@ body {
 }
 
 .track-title {
-  position: relative;
   flex: 1;
   font-size: 18px;
-  cursor: pointer;
-  transition: .2s;
 }
-
-.track-title:hover {
-  color: #363636;
-}
-
 
 /* ========================================
    Player
