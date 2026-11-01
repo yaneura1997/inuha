@@ -512,7 +512,8 @@ body {
 
 .lyrics-popup {
   position: absolute;
-  left: 0;
+  left: auto;
+  right: 0;
   bottom: calc(100% + 12px);
 
   display: none;
@@ -537,6 +538,11 @@ body {
   font-size: 13px;
 
   z-index: 9999;
+}
+
+.lyrics-text {
+  margin: 0;
+  padding: 0;
 }
 
 /* 表示 */
