@@ -21,13 +21,8 @@ body {
 ======================================== */
 
 .header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  position: relative;
   height: 70px;
-  z-index: 1000;
-  background: #666666;
 }
 
 /* ヘッダー固定によるコンテンツ位置調整 */
@@ -38,12 +33,13 @@ main {
 /* ---------- Logo ---------- */
 
 .header-center {
-  position: absolute;
+  position: fixed;
   left: 50%;
-  top: 50%;
+  top: 35px;
   transform: translate(-50%, -50%);
   font-size: 32px;
   letter-spacing: .12em;
+  z-index: 1001;
 }
 
 .header-home {
@@ -67,12 +63,13 @@ main {
 /* ---------- Hamburger ---------- */
 
 .hamburger {
-  position: absolute;
+  position: fixed;
   right: 20px;
-  top: 50%;
+  top: 35px;
   transform: translateY(-50%);
   width: 30px;
   cursor: pointer;
+  z-index: 1001;
 }
 
 .hamburger span {
@@ -643,39 +640,46 @@ main {
   /* ---------- Header ---------- */
 
   main {
-  padding-top: 60px;
+    padding-top: 60px;
   }
 
-  .header{
-    height:60px;
+  .header {
+    height: 60px;
   }
 
-  .header-home{
-    left:15px;
+  .header-home {
+    left: 15px;
   }
 
-  .logo-main{
-    font-size:22px;
+  .header-center {
+    top: 30px;
+    font-size: 22px;
   }
 
-  .logo-sub{
-    font-size:10px;
+  .logo-main {
+    font-size: 22px;
   }
 
-  .hamburger{
-    right:15px;
-    width:28px;
+  .logo-sub {
+    font-size: 10px;
   }
 
-  .hamburger-menu{
-    top:60px;
-    right:0;
-    width:100%;
-    padding:20px;
+  .hamburger {
+    top: 30px;
+    right: 15px;
+    width: 28px;
   }
 
-  .hamburger-menu a{
-    font-size:20px;
+  .hamburger-menu {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .hamburger-menu a {
+    font-size: 20px;
   }
 
   /* ---------- Hero ---------- */
