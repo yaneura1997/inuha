@@ -175,7 +175,7 @@ body {
 
 .plate-menu a,
 .song-menu a {
-  color: #888;
+  color: #625e5e;
   text-decoration: none;
 }
 
@@ -232,7 +232,7 @@ body {
 .plate-card p,
 .song-card p {
   margin: 0;
-  color: #777;
+  color: #625e5e;
 }
 
 /* ========================================
@@ -269,7 +269,7 @@ body {
   margin: 10px 0 30px;
   padding: 0;
   font-size: 18px;
-  color: #424242b3;
+  color: #625e5e;
 }
 
 
@@ -339,7 +339,7 @@ body {
 
 .type {
   margin: 10px 0 30px;
-  color: #777;
+  color: #625e5e;
   font-size: 20px;
 }
 
@@ -413,7 +413,7 @@ body {
 }
 
 .track-title:hover {
-  color: #777;
+  color: #625e5e;
 }
 
 
@@ -451,7 +451,7 @@ body {
 .duration {
   width: 38px;
   font-size: 13px;
-  color: #777;
+  color: #625e5e;
   text-align: center;
 }
 
