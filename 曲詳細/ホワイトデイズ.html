@@ -117,80 +117,87 @@
 
           <h2>TRACK LIST</h2>
 
-          <!-- 1曲目 -->
-          <div class="track">
+            <!-- 1曲目 -->
+            <div class="track">
 
-            <div class="track-head">
+              <!-- 歌詞ポップアップ -->
+              <div class="lyrics-popup">
 
-              <div class="track-left">
-
-                <span class="track-title">
-
-                  01. ホワイトデイズ
-
-                  <span class="lyrics-popup">
-                    ホワイトデイズ
-
-                    どんな時でも笑顔くれた
-                    かわいくてあったかい食いしん坊なとこも
-                    大好きだった そのぬくもりが
-                    ずっと近くにあるものだと思ってた
-
-                    涙なんて流さないで歩いていくよ
-                    君のあたたかさ残るこの街で
-                    滲んだ空に向かいこの思い届けるよ
-                    it's my white days 君に届くように
-
-                    ぎゅっとして安心する不思議な魔法
-                    凍った心が静かに解けるように
-
-                    君がくれた光集めて僕は唄う
-                    it's our white days 君に届くように
-                  </span>
-
-                </span>
-
-
-                <!-- 再生ボタン -->
-                <button class="play">
-                  ▶
+                <button class="lyrics-close" type="button" aria-label="歌詞を閉じる">
+                  ×
                 </button>
+
+                <div class="lyrics-text">
+                  ホワイトデイズ
+
+                  どんな時でも笑顔くれた
+                  かわいくてあったかい食いしん坊なとこも
+                  大好きだった そのぬくもりが
+                  ずっと近くにあるものだと思ってた
+
+                  涙なんて流さないで歩いていくよ
+                  君のあたたかさ残るこの街で
+                  滲んだ空に向かいこの思い届けるよ
+                  it's my white days 君に届くように
+
+                  ぎゅっとして安心する不思議な魔法
+                  凍った心が静かに解けるように
+
+                  君がくれた光集めて僕は唄う
+                  it's our white days 君に届くように
+                </div>
 
               </div>
 
+
+              <!-- 曲名・ボタン -->
+              <div class="track-head">
+
+                <div class="track-left">
+
+                  <span class="track-title">
+                    01. ホワイトデイズ
+                  </span>
+
+                  <!-- 歌詞ボタン -->
+                  <button class="lyrics-toggle" type="button" aria-label="歌詞を表示">
+                    ▤
+                  </button>
+
+                  <!-- 再生ボタン -->
+                  <button class="play" type="button">
+                    ▶
+                  </button>
+
+                </div>
+
+              </div>
+
+
+              <!-- プレイヤー -->
+              <div class="player">
+
+                <span class="current">0:00</span>
+
+                <input
+                  type="range"
+                  class="seek"
+                  value="0"
+                  min="0"
+                  max="100"
+                >
+
+                <span class="duration">0:00</span>
+
+              </div>
+
+
+              <!-- 音源 -->
+              <audio>
+                <source src="../audio/ホワイトデイズ.m4a">
+              </audio>
+
             </div>
-
-
-            <!-- プレイヤー -->
-            <div class="player">
-
-              <span class="current">
-                0:00
-              </span>
-
-              <input
-                type="range"
-                class="seek"
-                value="0"
-                min="0"
-                max="100"
-              >
-
-              <span class="duration">
-                0:00
-              </span>
-
-            </div>
-
-
-            <!-- 音源 -->
-            <audio>
-              <source src="../audio/ホワイトデイズ.m4a">
-            </audio>
-
-          </div>
-
-        </div>
 
 
         <!-- Song一覧へ戻る -->
