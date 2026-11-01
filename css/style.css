@@ -25,11 +25,6 @@ body {
   height: 70px;
 }
 
-/* ヘッダー固定によるコンテンツ位置調整 */
-main {
-  padding-top: 70px;
-}
-
 /* ---------- Logo ---------- */
 
 .header-center {
@@ -639,11 +634,6 @@ main {
 @media (max-width:768px){
 
   /* ---------- Header ---------- */
-
-  main {
-    padding-top: 60px;
-  }
-
   .header {
     height: 60px;
   }
