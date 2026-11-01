@@ -3,10 +3,37 @@ const menu = document.querySelector(".hamburger-menu");
 
 if (hamburger && menu) {
 
-  hamburger.addEventListener("click", () => {
-
+  // ハンバーガーを押したとき
+  hamburger.addEventListener("click", (e) => {
+    e.stopPropagation();
     menu.classList.toggle("is-open");
+  });
 
+  // メニュー内を押したとき
+  menu.addEventListener("click", (e) => {
+    e.stopPropagation();
+
+    // リンクを押したら閉じる
+    if (e.target.closest("a")) {
+      menu.classList.remove("is-open");
+    }
+  });
+
+  // メニュー以外を押したら閉じる
+  document.addEventListener("click", (e) => {
+    if (
+      !menu.contains(e.target) &&
+      !hamburger.contains(e.target)
+    ) {
+      menu.classList.remove("is-open");
+    }
+  });
+
+  // ESCキーでも閉じる
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      menu.classList.remove("is-open");
+    }
   });
 
 }
