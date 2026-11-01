@@ -132,7 +132,7 @@ body {
 }
 
 .hero-menu a:hover {
-  background: #1ff01f;
+  background: #00f600;
 }
 
 
@@ -175,7 +175,7 @@ body {
 
 .plate-menu a,
 .song-menu a {
-  color: #1ff01f;
+  color: #00f600;
   text-decoration: none;
 }
 
@@ -232,7 +232,7 @@ body {
 .plate-card p,
 .song-card p {
   margin: 0;
-  color: #1ff01f;
+  color: #00f600;
 }
 
 /* ========================================
@@ -269,7 +269,7 @@ body {
   margin: 10px 0 30px;
   padding: 0;
   font-size: 18px;
-  color: #1ff01f;
+  color: #00f600;
 }
 
 
@@ -339,7 +339,7 @@ body {
 
 .type {
   margin: 10px 0 30px;
-  color: #1ff01f;
+  color: #00f600;
   font-size: 20px;
 }
 
@@ -368,7 +368,7 @@ body {
 }
 
 .back a {
-  color: #1ff01f;
+  color: #00f600;
   text-decoration: none;
 }
 
@@ -413,7 +413,7 @@ body {
 }
 
 .track-title:hover {
-  color: #1ff01f;
+  color: #00f600;
 }
 
 
@@ -451,7 +451,7 @@ body {
 .duration {
   width: 38px;
   font-size: 13px;
-  color: #1ff01f;
+  color: #00f600;
   text-align: center;
 }
 
