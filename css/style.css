@@ -713,9 +713,12 @@ body {
   }
 
   .hero-menu a{
-    width:240px;
+    width:260px;
+    padding:16px 26px;
     text-align:center;
+    font-size:18px;
     font-weight:700;
+    border:2px solid #ffe600;
   }
 
   /* ---------- Common ---------- */
